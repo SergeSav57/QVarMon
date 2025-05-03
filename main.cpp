@@ -18,7 +18,7 @@
 // указатель на файл логирования
 QScopedPointer<QFile>   m_logFile;
 
-// Объявление обработчика
+// Объявление обработчика для файла логирования
 void messageHandler(QtMsgType type, const QMessageLogContext &context, const QString &msg);
 
 int main(int argc, char *argv[])

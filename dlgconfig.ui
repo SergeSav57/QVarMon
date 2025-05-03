@@ -134,11 +134,8 @@
        <property name="title">
         <string>Файлы переменных каналов</string>
        </property>
-       <layout class="QGridLayout" name="gridLayout">
-        <item row="1" column="0">
-         <widget class="QTableWidget" name="TABLE_VAR_FILES"/>
-        </item>
-        <item row="0" column="0">
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
          <widget class="QCheckBox" name="checkBox">
           <property name="maximumSize">
            <size>
@@ -153,6 +150,9 @@
            <string>Отображать полный путь</string>
           </property>
          </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="TABLE_VAR_FILES"/>
         </item>
        </layout>
       </widget>

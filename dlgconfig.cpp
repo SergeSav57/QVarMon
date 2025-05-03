@@ -181,10 +181,8 @@ void DlgConfig::fillTableVarFiles()
             itemFile->setData(Qt::TextAlignmentRole,Qt::AlignCenter);
             if(m_showFullPath) {
                 itemFile->setData(Qt::DisplayRole, m_cfgProp.varFilePath[i]);
-                itemFile->setData(Qt::DisplayRole, m_cfgProp.varFilePath[i]);
             }
             else {
-                itemFile->setData(Qt::DisplayRole, m_cfgProp.varFileName[i]);
                 itemFile->setData(Qt::DisplayRole, m_cfgProp.varFileName[i]);
             }
             ui->TABLE_VAR_FILES->setItem(i, 2, itemFile);
